@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    font-family: poppins,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}        
+.container{
+    background-image: url(background.jpg);
+    background-size:cover;
+    width: 100%;
+    max-width: 350px;
+    padding: 25px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+h4{
+    font-weight: 300;
+}
+.chip{
+    margin-top: 18px ;
+}
+.chip_img{
+    width: 43px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+
+}
+.rightpart div{
+    font-weight: 300;
+    font-size: 10px;
+}
+.details div{
+    font-weight: 300;
+}
+.leftpart .card_number{
+    font-size: 10px;
+}
+.name{
+    margin-top: 10px;
+}
+.logo{
+    width: 40px;
+}
